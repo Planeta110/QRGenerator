@@ -1,0 +1,26 @@
+
+                    // <div className="unpte">
+                    //<div className="generar">
+                    //<h2>Generador de QR</h2>
+                    //<p>Genera tu QR con cualquier URL deseada.<br />
+                        //Crea códigos visuales en segundos.<br />
+                        //Haz tu contenido accesible con un simple escaneo.<br />
+                        //¡Haz que la información esté al alcance de todos!</p>
+                //</div>
+                //<div className="input">
+                    //<label htmlFor="fad">URL</label>
+                    //<input type="url" className="urldas" />
+                //</div>
+            //</div>
+                }
+               
+
+            <div className="codigoqr">
+                <Qrcode className="qrcodess" url={urlsec} style={{ backgroundColor: 'white' }} />
+            </div>
+            <div className="buton">
+                <button onClick={generarqr}>Generar QR</button>
+            </div>
+            <div className="descargar">
+                <button className="descargarqr">Descargar QR</button>
+            </div>

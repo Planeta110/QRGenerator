@@ -1,2 +1,5 @@
-# QRGenerator
-Este proyecto es para generar codigos qr insertando url
+## QR GENERATOR
+
+Puedes mirar el codigo 
+
+
